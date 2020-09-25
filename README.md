@@ -7,7 +7,7 @@
 
 
 ### copy and paste 
-    a simple solution to store a sample-stack.cpp 
+    a simple solution would be  to store a sample-stack.cpp and copy paste it every time for a stack realted problem .
 
 
 ### vscode
@@ -24,18 +24,18 @@ I leveraged this feature to make writing the same piece of code over and over ea
     This meant that each individual line to be an element in the string array of the body of suggestion
 
     > issue
-        Now i could have pasted each and every line of code into the array of body , but this is even more tiresome 
+        >>Now i could have pasted each and every line of code into the array of body , but this is even more tiresome 
 
-        So i wrote a filestream.cpp to process an input.txt and remove the tabs and lines with "tab" and "line"
+        >>So i wrote a filestream.cpp to process an input.txt and remove the tabs and lines with "tab" and "line"
 
-        ####sphagetti warning 
+        !!! sphagetti warning !!!
 
-        input.txt - store the sample to be entered into the body of the suggestion
+        >>input.txt - store the sample to be entered into the body of the suggestion
         output.txt - has the text in a single line with \t,\n replaced by tab,line 
 
-        Now in output.txt ctrl+f "tab" ctrl+h "\t" and ctrl+f "line" ctrl+h "\n"
+        >>Now in output.txt ctrl+f "tab" ctrl+h "\t" and ctrl+f "line" ctrl+h "\n"
 
-        This was necessary since when reading input the nextline charcter is read as \n thus the output would also contain the same text .
+        >>This was necessary since when reading input the nextline charcter is read as \n thus the output would also contain the same text .
         to overcome i replaced next line with \n and then reformatting it by hand by using replacing line with \n 
 
 
