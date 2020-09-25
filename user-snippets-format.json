@@ -1,0 +1,9 @@
+{
+    "void function template": {
+        "prefix": "void",
+        "body": [
+            "{}"
+        ],
+        "description": "template for my cpp file"
+    },
+}
