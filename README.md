@@ -1,12 +1,16 @@
-#workarounds for issues i faced while criting cpp sphagetti
+# workarounds for issues i faced while criting cpp sphagetti
 
 <li>
 <ul>Our DSA prof has instructed us to implement the STL stack,queue and dequeue on our own until we are thorough with it's functioning .</ul>
 <ul>This meant that we had to write 40-50 lines of same piece of code for every problem at the cost of not including STL</ul>
 </li>
-###copy and paste 
+
+
+### copy and paste 
     a simple solution to store a sample-stack.cpp 
-###vscode
+
+
+### vscode
  My primary editor is vscode  (you know how comfortable it is !)
     vscode has the snippets wherein we can define our own snippets .
     These snippets (along with the snippets from intellisense and extensions) are suggested while writing the code .
@@ -14,12 +18,12 @@
 
 I leveraged this feature to make writing the same piece of code over and over easier .
 
-###json
+### json
     vscode user snippets requires we input the text to be completed in a js string .
     checkout the format of snippets in ./user-format-snippets.json
     This meant that each individual line to be an element in the string array of the body of suggestion
 
-    #### issue
+    > issue
         Now i could have pasted each and every line of code into the array of body , but this is even more tiresome 
 
         So i wrote a filestream.cpp to process an input.txt and remove the tabs and lines with "tab" and "line"
